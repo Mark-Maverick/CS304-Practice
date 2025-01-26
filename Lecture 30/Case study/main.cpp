@@ -48,7 +48,7 @@ class Teacher: public Person{ // Concrete Class
 
 int main(){
     
-    Person*p[2]; // made array because it has to child classes 
+    Person*p[2]; // made array because it has two child classes 
     p[0] = new Student(101, "Mark Maverick", 100);
     p[1] = new Teacher(501, "sdjfhjk", "BSCS");
     p[0] -> display();

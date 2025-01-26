@@ -26,7 +26,7 @@ class Test{
         void display(){
             cout << "a: " << a << endl;
         }
-}
+};
 
 int main(){
     Test T1(10);

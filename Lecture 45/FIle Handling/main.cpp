@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     
     int id = 1234;
-    string name = "Mark Maverick";
+    string name = "Mark"; // Keep in mind that we need to write name of one word as i've written mark instead of mark maverick if i write mark maverick then the output would be a infinite loop with name: mark and id : 0
     // Steps for writing in file:
     // 1. Create object of ofstream class but we can use fstream class for both reading and writing
     fstream file;
@@ -29,7 +29,7 @@ int main(){
         file >> name;
         file >> id;
         while (!file.eof()){
-            cout << "\nname: " << name << "  id: " << id;
+            cout << "name: " << name << "  id: " << id << endl;
             file>> name >> id;
         }
         
